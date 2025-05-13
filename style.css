@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #5561f0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #3d4bd9;
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      width: 90%;
+      padding: 30px 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .btn {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #5561f0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+
+  .tabela-horario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+  
+  .tabela-horario th,
+  .tabela-horario td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    min-width: 100px; 
+  }
+  
+  .tabela-horario th {
+    background-color: #5561f0;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .tabela-horario tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabela-horario tr:hover {
+    background-color: #eef2ff;
+  }
+
+
+
+  
